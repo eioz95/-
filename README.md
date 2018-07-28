@@ -27,4 +27,7 @@
         }
     }
  ```   
-# 3- 
+# 3- 使用android.media.ThumbnailUtils 生成缩略图
+```java
+ThumbnailUtils.extractThumbnail(bitMap,height,with)
+```
